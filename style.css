@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background: #8A3627;
+}
+
+#canvas {
+	height: 50vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#body {
+	height: 20vmin;
+	width: 50vmin;
+	background: linear-gradient(to bottom, #6C70FF, #2F35FF);
+	border-radius: 30% 0 0 0;
+	left: 15vmin;
+	top: 20vmin;
+}
+
+#top {
+	height: 15vmin;
+	width: 35vmin;
+	background: linear-gradient(to bottom, #9093FF, #6C70FF);
+	border-radius: 15vmin 15vmin 0 0;
+	top: 5vmin;
+	left: 30vmin;
+}
+
+#window, #window2 {
+	width: 12vmin;
+	height: 12vmin;
+	border-radius: 100% 0 0 0;
+	background: #010101;
+	top: 3vmin;
+	left: 3vmin;
+}
+
+#window2 {
+	width: 15vmin;
+	border-radius: 0 12vmin 0 0;
+	left: 17vmin;
+}
+
+#bumper, #bumper2 {
+	height: 5vmin;
+	width: 9vmin;
+	background: #B1B1B1;
+	left: -2vmin;
+	top: 16vmin;
+	border-radius: 1vmin 0 0 1vmin;
+}
+
+#bumper2 {
+	left: 42vmin;
+	border-radius: 0 1vmin 1vmin 0;
+}
+
+#wheel, #wheel2 {
+	width: 6vmin; 
+	height: 6vmin;
+	background: #626262;
+	border-radius: 50%;
+	border: 5vmin solid #111111;
+	left: 5vmin;
+	top: 10vmin;
+}
+
+#wheel2 {
+	left: 30vmin;
+}
+
+#road, #road2 {
+	width: 60vmin;
+	height: 2vmin;
+	background: #222;
+	border-radius: 1vmin;
+	top: 45.5vmin;
+	left: 8vmin;
+}
+
+#road2 {
+	left: 70vmin;
+	width: 5vmin;
+}
+
+#lamp {
+	height: 5vmin;
+	width: 6vmin;
+	background: linear-gradient(to right, #fff, rgba(0,0,0,0.3));
+	border-radius: 6vmin 2.5vmin 2.5vmin 2vmin;
+	top: 5vmin;
+}
